@@ -9,3 +9,4 @@
 ## UIKit
 - [CoreLocation](https://www.notion.so/TIL-0414-afa1e1bed16c4cac96fd5d435d189bef?pvs=4)
 - [UIKit의 애니메이션](https://www.notion.so/TIL-0415-UIkit-3523f9c9041147a587c9e6b211eccdef?pvs=4)
+- [textView placeholder](https://www.notion.so/TIL-0427-StackView-subView-textView-placeHolder-383546921b16418fbfc2d10fce667f0c?pvs=4)
