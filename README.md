@@ -12,4 +12,4 @@
 - [textView placeholder](https://www.notion.so/TIL-0427-StackView-subView-textView-placeHolder-383546921b16418fbfc2d10fce667f0c?pvs=4)
 - [PanGesture](https://www.notion.so/TIL-0428-UIPanGestureRecognizer-32e9406afe0d410c8e26ebd8f1023bf5?pvs=4)
 - [TableView](https://www.notion.so/TIL-0501-UITableView-b4a1ff470a654a9581b8a56cb5a90f04?pvs=4)
-https://www.notion.so/TIL-0503-TableView-CollectionView-58832ec09d72422d9a8d2dcd3e9749a2?pvs=4
+- [TableView, CollectionView 더하기](https://www.notion.so/TIL-0503-TableView-CollectionView-58832ec09d72422d9a8d2dcd3e9749a2?pvs=4)
