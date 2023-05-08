@@ -16,3 +16,6 @@
 
 ## Trouble Shooting
 - [gradient layer 적용](https://www.notion.so/TIL-0505-5bcbc163e9484a298a40a16135978f55?pvs=4)
+
+## SwiftUI
+- [2-1. Drawing Paths and Shapes](https://www.notion.so/2-1-Drawing-Paths-and-Shapes-79afd94c098f43f68d02d50fa9f64240?pvs=4)
