@@ -25,4 +25,5 @@
 - [2-2. Animating Views and Transitions](https://www.notion.so/2-2-Animating-Views-and-Transitions-9d74782d2dce4bf6b98e395c2d67672c?pvs=4)
 
 ## RxSwift
+- [기본개념](https://www.notion.so/ready-a867e9b953e14eb18f19af3afde0b74b?pvs=4)
 - [week1](https://www.notion.so/week-1-7fdc5a561c35431aa81110157483e1e8?pvs=4)
