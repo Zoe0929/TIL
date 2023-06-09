@@ -28,3 +28,4 @@
 - [기본개념](https://www.notion.so/ready-a867e9b953e14eb18f19af3afde0b74b?pvs=4)
 - [week1](https://www.notion.so/week-1-7fdc5a561c35431aa81110157483e1e8?pvs=4)
 - [week2](https://www.notion.so/week-2-6a1417e7e7ae47f1aa43bd1265b7d2d7?pvs=4)
+- [week3](https://www.notion.so/week-3-0bb731b7dd5e45d9b76e1116d80b6f55?pvs=4)
