@@ -17,7 +17,7 @@
 - [API 연결](https://www.notion.so/TIL-0511-TMDB-2467b3aeefc743048288764ea39d95c7?pvs=4)
 - [collectionView 활용](https://www.notion.so/TIL-CollectionView-ft-56989588298a493994d8f7760faf724f?pvs=4)
 - [stackView 활용](https://www.notion.so/TIL-0427-StackView-subView-textView-placeHolder-383546921b16418fbfc2d10fce667f0c?pvs=4)
-
+- [UIBezier Path](https://www.notion.so/TIL-0517-UIBezier-Path-cd060d1d89b449229c0cd0074f569101?pvs=4)
 ## Trouble Shooting
 - [gradient layer 적용](https://www.notion.so/TIL-0505-5bcbc163e9484a298a40a16135978f55?pvs=4)
 
