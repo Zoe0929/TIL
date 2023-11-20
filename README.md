@@ -1,6 +1,7 @@
 # TIL
 `열심히 배우고 정리한 것들.zip`
 
+노션에서 더 많은 걸 확인할 수 있어요 👉👉 [노션 보기](https://www.notion.so/zoedev/Dev_EnZoe-c5b7995550674dab9b0ee12b64f26b15?pvs=4)
 
 ## Swift
 - [convenience init](https://www.notion.so/TIL-0417-convenience-init-64323361362349239f7d164f27d66082?pvs=4)
