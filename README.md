@@ -8,6 +8,7 @@
 - [프로퍼티의 getter, setter](https://harsh-apparel-508.notion.site/TIL-0424-getter-setter-7995a5ab30ef4a1c88106a8937dc3936)
 - [class와 struct](https://www.notion.so/Class-Struct-2ee5b57f9fb240e19978b0f986bbe5a5?pvs=4)
 - [상속](https://www.notion.so/6499f9a2a5604948b1c73b3978d30f3c?pvs=4)
+- [property Wrapper](https://zoedev.notion.site/SwiftUI-property-wrapper-bf6249fb182345be9eafdb2a69c5ce8c?pvs=4)
 
 ## UIKit
 - [CoreLocation](https://www.notion.so/TIL-0414-afa1e1bed16c4cac96fd5d435d189bef?pvs=4)
