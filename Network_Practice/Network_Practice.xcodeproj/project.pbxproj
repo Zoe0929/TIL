@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		361D45992C1890B80060DFBC /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 361D45982C1890B80060DFBC /* Alamofire */; };
+		361D459C2C18A3890060DFBC /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361D459B2C18A3890060DFBC /* APIEndpoint.swift */; };
+		361D459E2C18A4020060DFBC /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361D459D2C18A4020060DFBC /* NetworkService.swift */; };
+		361D45A02C18A49A0060DFBC /* APILogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361D459F2C18A49A0060DFBC /* APILogger.swift */; };
+		361D45A22C18AF5F0060DFBC /* NetworkResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361D45A12C18AF5F0060DFBC /* NetworkResult.swift */; };
+		361D45A42C18B4E10060DFBC /* MockURLProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361D45A32C18B4E10060DFBC /* MockURLProtocol.swift */; };
 		36AC55F72C173C7D00E2074D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AC55F62C173C7D00E2074D /* AppDelegate.swift */; };
 		36AC55F92C173C7D00E2074D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AC55F82C173C7D00E2074D /* SceneDelegate.swift */; };
 		36AC55FB2C173C7D00E2074D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AC55FA2C173C7D00E2074D /* ViewController.swift */; };
@@ -17,6 +22,8 @@
 		36AC560E2C173C8000E2074D /* Network_PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AC560D2C173C8000E2074D /* Network_PracticeTests.swift */; };
 		36AC56182C173C8000E2074D /* Network_PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AC56172C173C8000E2074D /* Network_PracticeUITests.swift */; };
 		36AC561A2C173C8000E2074D /* Network_PracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AC56192C173C8000E2074D /* Network_PracticeUITestsLaunchTests.swift */; };
+		36CC967C2C18BD6700FC9048 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CC967B2C18BD6700FC9048 /* ViewModel.swift */; };
+		36CC967E2C18BD6F00FC9048 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CC967D2C18BD6F00FC9048 /* View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +44,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		361D459B2C18A3890060DFBC /* APIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
+		361D459D2C18A4020060DFBC /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		361D459F2C18A49A0060DFBC /* APILogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APILogger.swift; sourceTree = "<group>"; };
+		361D45A12C18AF5F0060DFBC /* NetworkResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResult.swift; sourceTree = "<group>"; };
+		361D45A32C18B4E10060DFBC /* MockURLProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLProtocol.swift; sourceTree = "<group>"; };
 		36AC55F32C173C7D00E2074D /* Network_Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Network_Practice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36AC55F62C173C7D00E2074D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36AC55F82C173C7D00E2074D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +62,8 @@
 		36AC56132C173C8000E2074D /* Network_PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Network_PracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36AC56172C173C8000E2074D /* Network_PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network_PracticeUITests.swift; sourceTree = "<group>"; };
 		36AC56192C173C8000E2074D /* Network_PracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network_PracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		36CC967B2C18BD6700FC9048 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		36CC967D2C18BD6F00FC9048 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +92,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		361D459A2C1897AA0060DFBC /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				36CC96802C18BDDA00FC9048 /* DTO */,
+				36CC967F2C18BDD100FC9048 /* Base */,
+				361D45A32C18B4E10060DFBC /* MockURLProtocol.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		36AC55EA2C173C7C00E2074D = {
 			isa = PBXGroup;
 			children = (
@@ -101,13 +125,13 @@
 		36AC55F52C173C7D00E2074D /* Network_Practice */ = {
 			isa = PBXGroup;
 			children = (
-				36AC55F62C173C7D00E2074D /* AppDelegate.swift */,
-				36AC55F82C173C7D00E2074D /* SceneDelegate.swift */,
-				36AC55FA2C173C7D00E2074D /* ViewController.swift */,
+				36CC96842C18BE4E00FC9048 /* Resource */,
+				36CC96832C18BE3D00FC9048 /* Application */,
+				36CC967A2C18BD5300FC9048 /* Data */,
+				36CC96792C18BD4D00FC9048 /* Domain */,
+				36CC96782C18BD4400FC9048 /* Presentaion */,
 				36AC55FC2C173C7D00E2074D /* Main.storyboard */,
-				36AC55FF2C173C7F00E2074D /* Assets.xcassets */,
 				36AC56012C173C7F00E2074D /* LaunchScreen.storyboard */,
-				36AC56042C173C7F00E2074D /* Info.plist */,
 			);
 			path = Network_Practice;
 			sourceTree = "<group>";
@@ -127,6 +151,99 @@
 				36AC56192C173C8000E2074D /* Network_PracticeUITestsLaunchTests.swift */,
 			);
 			path = Network_PracticeUITests;
+			sourceTree = "<group>";
+		};
+		36CC96762C18BD3600FC9048 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				36CC96812C18BE1D00FC9048 /* Interface */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		36CC96772C18BD3D00FC9048 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		36CC96782C18BD4400FC9048 /* Presentaion */ = {
+			isa = PBXGroup;
+			children = (
+				36AC55FA2C173C7D00E2074D /* ViewController.swift */,
+				36CC967B2C18BD6700FC9048 /* ViewModel.swift */,
+				36CC967D2C18BD6F00FC9048 /* View.swift */,
+			);
+			path = Presentaion;
+			sourceTree = "<group>";
+		};
+		36CC96792C18BD4D00FC9048 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				36CC96822C18BE3000FC9048 /* Model */,
+				36CC96772C18BD3D00FC9048 /* UseCase */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		36CC967A2C18BD5300FC9048 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				36CC96762C18BD3600FC9048 /* Repository */,
+				361D459A2C1897AA0060DFBC /* Network */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		36CC967F2C18BDD100FC9048 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				361D459B2C18A3890060DFBC /* APIEndpoint.swift */,
+				361D459D2C18A4020060DFBC /* NetworkService.swift */,
+				361D459F2C18A49A0060DFBC /* APILogger.swift */,
+				361D45A12C18AF5F0060DFBC /* NetworkResult.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		36CC96802C18BDDA00FC9048 /* DTO */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DTO;
+			sourceTree = "<group>";
+		};
+		36CC96812C18BE1D00FC9048 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		36CC96822C18BE3000FC9048 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		36CC96832C18BE3D00FC9048 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				36AC56042C173C7F00E2074D /* Info.plist */,
+				36AC55F62C173C7D00E2074D /* AppDelegate.swift */,
+				36AC55F82C173C7D00E2074D /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		36CC96842C18BE4E00FC9048 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				36AC55FF2C173C7F00E2074D /* Assets.xcassets */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,9 +383,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				361D45A02C18A49A0060DFBC /* APILogger.swift in Sources */,
+				36CC967C2C18BD6700FC9048 /* ViewModel.swift in Sources */,
+				36CC967E2C18BD6F00FC9048 /* View.swift in Sources */,
+				361D459E2C18A4020060DFBC /* NetworkService.swift in Sources */,
+				361D45A42C18B4E10060DFBC /* MockURLProtocol.swift in Sources */,
 				36AC55FB2C173C7D00E2074D /* ViewController.swift in Sources */,
 				36AC55F72C173C7D00E2074D /* AppDelegate.swift in Sources */,
 				36AC55F92C173C7D00E2074D /* SceneDelegate.swift in Sources */,
+				361D459C2C18A3890060DFBC /* APIEndpoint.swift in Sources */,
+				361D45A22C18AF5F0060DFBC /* NetworkResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,10 +576,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 65NSM7Z327;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Network_Practice/Info.plist;
+				INFOPLIST_FILE = Network_Practice/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -480,10 +603,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 65NSM7Z327;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Network_Practice/Info.plist;
+				INFOPLIST_FILE = Network_Practice/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
