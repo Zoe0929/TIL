@@ -6,3 +6,21 @@
 //
 
 import Foundation
+
+class MockAppDIContainer {
+    static let shared = MockAppDIContainer()
+
+    private init() {}
+
+    func makeMockNetworkService() -> NetworkServiceProtocol {
+        return MockNetworkService()
+    }
+
+    func makeMockUserRepository() -> TestRepository {
+        return MockRepositoryImpl(networkService: makeMockNetworkService())
+    }
+
+    func makeMockGetUserUseCase() -> GetUserUseCase {
+        return GetUserUseCaseImpl(userRepository: makeMockUserRepository())
+    }
+}
