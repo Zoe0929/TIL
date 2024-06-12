@@ -18,6 +18,7 @@
 		369C63562C1A07E50021E2E0 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = 369C63552C1A07E50021E2E0 /* RxBlocking */; };
 		369C63582C1A07E50021E2E0 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 369C63572C1A07E50021E2E0 /* RxCocoa */; };
 		369C635A2C1A07E50021E2E0 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 369C63592C1A07E50021E2E0 /* RxRelay */; };
+		369C635E2C1A09C80021E2E0 /* CounterViewReator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369C635D2C1A09C80021E2E0 /* CounterViewReator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		369C633E2C1A04B40021E2E0 /* ReactorCounterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactorCounterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		369C63422C1A04B40021E2E0 /* ReactorCounterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactorCounterUITests.swift; sourceTree = "<group>"; };
 		369C63442C1A04B40021E2E0 /* ReactorCounterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactorCounterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		369C635D2C1A09C80021E2E0 /* CounterViewReator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewReator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 		369C635C2C1A09360021E2E0 /* Reactor */ = {
 			isa = PBXGroup;
 			children = (
+				369C635D2C1A09C80021E2E0 /* CounterViewReator.swift */,
 			);
 			path = Reactor;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			files = (
 				369C63262C1A04B20021E2E0 /* ViewController.swift in Sources */,
 				369C63222C1A04B20021E2E0 /* AppDelegate.swift in Sources */,
+				369C635E2C1A09C80021E2E0 /* CounterViewReator.swift in Sources */,
 				369C63242C1A04B20021E2E0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
