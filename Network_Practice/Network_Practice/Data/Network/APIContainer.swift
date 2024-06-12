@@ -21,6 +21,6 @@ class MockAppDIContainer {
     }
 
     func makeMockGetUserUseCase() -> GetUserUseCase {
-        return GetUserUseCaseImpl(userRepository: makeMockUserRepository())
+        return GetUserUseCaseImpl(testRepository: makeMockUserRepository())
     }
 }
