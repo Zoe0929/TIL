@@ -16,9 +16,7 @@
 		36AC55F72C173C7D00E2074D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AC55F62C173C7D00E2074D /* AppDelegate.swift */; };
 		36AC55F92C173C7D00E2074D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AC55F82C173C7D00E2074D /* SceneDelegate.swift */; };
 		36AC55FB2C173C7D00E2074D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AC55FA2C173C7D00E2074D /* ViewController.swift */; };
-		36AC55FE2C173C7D00E2074D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 36AC55FD2C173C7D00E2074D /* Base */; };
 		36AC56002C173C7F00E2074D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36AC55FF2C173C7F00E2074D /* Assets.xcassets */; };
-		36AC56032C173C7F00E2074D /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 36AC56022C173C7F00E2074D /* Base */; };
 		36AC560E2C173C8000E2074D /* Network_PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AC560D2C173C8000E2074D /* Network_PracticeTests.swift */; };
 		36AC56182C173C8000E2074D /* Network_PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AC56172C173C8000E2074D /* Network_PracticeUITests.swift */; };
 		36AC561A2C173C8000E2074D /* Network_PracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36AC56192C173C8000E2074D /* Network_PracticeUITestsLaunchTests.swift */; };
@@ -60,9 +58,7 @@
 		36AC55F62C173C7D00E2074D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36AC55F82C173C7D00E2074D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		36AC55FA2C173C7D00E2074D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		36AC55FD2C173C7D00E2074D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36AC55FF2C173C7F00E2074D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		36AC56022C173C7F00E2074D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36AC56042C173C7F00E2074D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36AC56092C173C8000E2074D /* Network_PracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Network_PracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36AC560D2C173C8000E2074D /* Network_PracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network_PracticeTests.swift; sourceTree = "<group>"; };
@@ -146,8 +142,6 @@
 				36CC967A2C18BD5300FC9048 /* Data */,
 				36CC96792C18BD4D00FC9048 /* Domain */,
 				36CC96782C18BD4400FC9048 /* Presentaion */,
-				36AC55FC2C173C7D00E2074D /* Main.storyboard */,
-				36AC56012C173C7F00E2074D /* LaunchScreen.storyboard */,
 			);
 			path = Network_Practice;
 			sourceTree = "<group>";
@@ -386,8 +380,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				36AC56002C173C7F00E2074D /* Assets.xcassets in Resources */,
-				36AC56032C173C7F00E2074D /* Base in Resources */,
-				36AC55FE2C173C7D00E2074D /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,25 +455,6 @@
 			targetProxy = 36AC56142C173C8000E2074D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		36AC55FC2C173C7D00E2074D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				36AC55FD2C173C7D00E2074D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		36AC56012C173C7F00E2074D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				36AC56022C173C7F00E2074D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		36AC561B2C173C8000E2074D /* Debug */ = {
@@ -614,7 +587,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Network_Practice/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -641,7 +613,6 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Network_Practice/Application/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
