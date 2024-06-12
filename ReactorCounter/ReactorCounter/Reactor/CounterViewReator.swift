@@ -35,6 +35,7 @@ class CounterViewReator: Reactor {
     }
     
     /// 각각의 action이 들어왔을 때 어떻게 행동하라고 하는 것 -> observable 사용
+    /// Observable.concat 이벤트 순차적으로
     func mutate(action: Action) -> Observable<Mutation> {
         switch action {
         case .increase:
@@ -56,6 +57,8 @@ class CounterViewReator: Reactor {
         }
     }
     
+    /// mutate method를 통해서 Mutation들이 stream으로 내려옴.
+    /// stream 으로 내려오는 Mutation과 이전 상태를 조합하여 새로운 state를 리턴하는 method
     func reduce(state: State, mutation: Mutation) -> State {
         var newState = state
         
@@ -70,6 +73,6 @@ class CounterViewReator: Reactor {
             newState.isLoading = isLoading
         }
         
-        return newState
+        return newState // State 방출
     }
 }
